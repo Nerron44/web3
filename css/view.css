@@ -1,0 +1,11 @@
+.content__circle{
+  animation-name: <Имя ключевых кадров>,<Имя ключевых кадров №2>;
+  animation-duration: 1s;/*длительность*/
+  animation-timing-function: ease <имя>,<имя №2>;
+  animation-iteration-count: 3 <значение>,<значение №2>;/*количество*/
+  animation-direction: normal <значение>,<значение №2>;/*напрвление*/
+  animation-play-state: running;/*запускать или приотонавливать анимацию по поределенному событию*/
+  animation-delay: <время>,<время №2>;/*задержки*/
+  animation-fill-mode: <значение>,<значение №2>;/*свойства в конце анимации*/
+animation: animation-name animation-duration animation-timing-function animation-iteration-count animation-direction animation-play-state animation-delay animation-fill-mode;/*универсальная запись */
+}
